@@ -150,6 +150,7 @@ class Spiker():
 
 
 if __name__=="__main__":
+    #根据想要爬的json文件的年份
     year=2024
     with open(f"{year}.json","r",encoding="utf-8") as f:
         user=json.load(f)

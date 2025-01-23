@@ -2,7 +2,8 @@ import json
 import requests
 import re
 
-#更改正确的filename txt中一行一个id数字
+#更改正确的filename 
+#txt中一行一个uid
 filename="2024.txt"
 with open(filename,"r") as f:
     data=[]
