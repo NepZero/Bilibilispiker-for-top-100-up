@@ -5,9 +5,9 @@
 本项目采用selenium用Chrome对B站的相关信息进行爬取，事先下好对应版本的Chrome驱动（详细见网上教程）。因每次B站返回的HTML文件有可能不同，报错就多试几次。本项目要手动输入每个up主的uid。
 
 ## 使用方法
-1. 根据`requirement.txt`文件下载好相关库
+1. 根据`requirements.txt`文件下载好相关库
 ```shell
-pip install requirement.txt
+pip install -r requirements.txt
 ```
 2. 把想爬取的百大的uid写进`{year}.txt`中，如`2023.txt`所示
 3. 运行`txt2json.py`将`{year}.txt`转化成`{year}.json`
